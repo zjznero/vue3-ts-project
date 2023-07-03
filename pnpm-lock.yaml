@@ -46,7 +46,7 @@ devDependencies:
     specifier: ^9.15.1
     version: 9.15.1(eslint@8.42.0)
   husky:
-    specifier: ^8.0.3
+    specifier: ^8.0.0
     version: 8.0.3
   postcss:
     specifier: ^8.4.24
