@@ -6,7 +6,13 @@ const str = '我爱你祖国'
   <div>
     我是APP根组件
     <div class="box">
-      <h1>{{ str }}         </h1>
+      <h1>{{ str }}       
+      
+      
+      
+      
+      
+      </h1>
     </div>
   </div>
 </template>
