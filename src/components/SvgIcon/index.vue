@@ -1,6 +1,6 @@
 <template>
   <div>
-      <!-- svg：图标外层容器节点，内部需要与use标签结合 -->
+    <!-- svg：图标外层容器节点，内部需要与use标签结合 -->
     <svg :style="{ width: width, height: height }">
       <use :xlink:href="prefix + name" :fill="color"></use>
     </svg>
@@ -12,26 +12,25 @@ defineProps({
   //xlink:href属性值的前缀
   prefix: {
     type: String,
-    default: '#icon-'
+    default: '#icon-',
   },
   //svg矢量图的名字
   name: String,
   //svg图标的颜色
   color: {
     type: String,
-    default: ""
+    default: '',
   },
   //svg宽度
   width: {
     type: String,
-    default: '16px'
+    default: '16px',
   },
   //svg高度
   height: {
     type: String,
-    default: '16px'
-  }
-
+    default: '16px',
+  },
 })
 </script>
 <style scoped></style>
